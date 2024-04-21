@@ -1,0 +1,53 @@
+html{background-color: #FFE4C4} /*网页背景*/
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    /*去掉没必要的样式*/
+}
+.nav{
+    height:40px;
+    background:linear-gradient(rgb(222, 177, 94),#e90)
+    /*渐变的导航条*/
+}
+.navlist li{
+    /*通过浮动让列表变成横排*/
+    float: left;
+    height:40px;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+}
+.navlist a{
+    /*超链接改白色*/
+    color: #FFFFFF;
+    display: block;
+}
+.navlist{
+    width: 800px;
+    margin:auto;
+}
+/*鼠标悬停时，颜色变化*/
+.navlist a:hover{
+    background: rgb(246, 196, 105)
+}
+h1{
+    margin-left: 200px;
+    margin-top:10px;
+    text-indent:2em;
+}
+h2{
+    margin-left: 200px;
+    margin-top:10px;
+    text-indent:2em;
+}
+p{
+    font-size: 20px;
+    font-family: 宋体;
+    width: 800px;
+    text-indent: 2em;
+    margin-left: 200px;
+    margin-block-end: 20px; 
+    margin-block-start: 20px;
+}
